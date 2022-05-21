@@ -1,4 +1,4 @@
-import det,json,time,math,statistics    //det is the file i saved as credentials
+import det,json,time,math,statistics    //det is the file i saved as credentials of Bolt and twilio.
 from boltiot import Sms,Bolt
 def compute(history_data,frame_size,factor):
     if len(history_data)<frame_size:
